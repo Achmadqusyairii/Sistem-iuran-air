@@ -5,15 +5,15 @@ class Modelprovinsi extends CI_Model
 {
 	public function SemuaData()
 	{
-		return $this->db->get('tbl_provinsi')->result_array(); //banyak data kepanggil ya
+		return $this->db->get('tbl_blok')->result_array(); //banyak data kepanggil ya select * from
 	}
-	public function tambah_data_provinsi()
+	public function tambah_data_blok() // ini lari ke kontroler
 	{
 		$data =[
-			"kd_prov"=> $this->input->post('kd'),
-			"provinsi"=> $this->input->post('provinsi'),
+			"kd_blok"=> $this->input->post('kd'), // ini ada di name inputan
+			"nm_blok"=> $this->input->post('blok'), // ini ada di name inputan
 		];
-		$this->db->insert('tbl_provinsi', $data);
+		$this->db->insert('tbl_blok', $data); // ini query masukin ke database
 	}
 
 	public function hapus_data ($id)

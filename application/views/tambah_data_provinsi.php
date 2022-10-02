@@ -2,7 +2,7 @@
 
 <div class="card shadow mb-4">
 <div class="card-header py-3">
-<h6 class="m-0 font-weight-bold text-primary">TAMBAH DATA PROVINSI </h6>
+<h6 class="m-0 font-weight-bold text-primary">TAMBAH DATA BLOK </h6>
 <br>
 <form method="post" action ="<?php echo base_url ('provinsi/tambah_data_provinsi'); ?>">
   <div class="from-gruop row">
@@ -12,9 +12,9 @@
   </div>
 </div>
 <div class="from-gruop row">
-    <label for="nama" class="col-sm-2 col-form-label">provinsi</label>
+    <label for="nama" class="col-sm-2 col-form-label">blok</label>
     <div class = "col-sm-5">
-    <input type="text" class="from-control" name="provinsi">
+    <input type="text" class="from-control" name="blok">
   </div>
 </div>
 <div class="from-gruop row">

@@ -6,7 +6,7 @@ class Provinsi extends CI_Controller {
   public function index()
 
   {
-    $data['tbl_provinsi'] = $this->Modelprovinsi->SemuaData();
+    $data['tbl_blok'] = $this->Modelprovinsi->SemuaData();
     $this->load->view('tamplate/header');
     $this->load->view('tamplate/sidebar');
     $this->load->view('tamplate/topbar');
@@ -15,7 +15,7 @@ class Provinsi extends CI_Controller {
   }
   public function tambah_data()
 	{
-		$data['tbl_provinsi'] = $this->Modelprovinsi->SemuaData();
+		$data['tbl_blok'] = $this->Modelprovinsi->SemuaData();
 		$this->load->view('tamplate/header');
 		$this->load->view('tamplate/sidebar');
 		$this->load->view('tamplate/topbar');
@@ -23,10 +23,10 @@ class Provinsi extends CI_Controller {
 		$this->load->view('tamplate/footer');	
 	}
 
-	public function tambah_data_provinsi()
+	public function tambah_data_provinsi() // ini ambil dari nama model
 	{
-		$this->Modelprovinsi->tambah_data_provinsi();
-		redirect('provinsi');
+		$this->Modelprovinsi->tambah_data_blok(); // ini ambil dari fuction model
+		redirect('provinsi'); //ini kembali ke view
 	}
 
 	public function hapus_data($id)
