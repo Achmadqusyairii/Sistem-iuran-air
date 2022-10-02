@@ -29,10 +29,10 @@ class Provinsi extends CI_Controller {
 		redirect('provinsi'); //ini kembali ke view
 	}
 
-	public function hapus_data($id)
+	public function hapus_data($id) // fungsi hapus data mengambil ID 
 	{
-		$this->Modelprovinsi->hapus_data ($id);
-		redirect('provinsi');
+		$this->Modelprovinsi->hapus_data ($id);// lihat di model lalu lakukan fuction hapus data
+		redirect('provinsi'); // kembali ke view
 	}
 	public function edit_data ($id)
 	{

@@ -13,13 +13,13 @@ class Modelprovinsi extends CI_Model
 			"kd_blok"=> $this->input->post('kd'), // ini ada di name inputan
 			"nm_blok"=> $this->input->post('blok'), // ini ada di name inputan
 		];
-		$this->db->insert('tbl_blok', $data); // ini query masukin ke database
+		$this->db->insert('tbl_blok', $data); // ini query masukin ke database atau query insert
 	}
 
-	public function hapus_data ($id)
+	public function hapus_data ($id) // buat funcion yang nanti di panggi di ctrl dan ambil id
 	{
-		$this->db->where('id', $id);
-		$this->db->delete('tbl_provinsi');
+		$this->db->where('id', $id); // cari nama id lalu lakukan ambil id 
+		$this->db->delete('tbl_blok'); // lalu delete data id yang adan di tbl_blok
 	}
 
 	public function ambil_id_provinsi($id)
