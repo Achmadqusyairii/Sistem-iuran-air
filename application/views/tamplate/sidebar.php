@@ -6,7 +6,7 @@
     <div class="sidebar-brand-icon rotate-n-15">
         <i class=""></i>
     </div>
-    <img class="" src="<?php echo base_url()?>assets/img/logo.png">
+    <!-- <img class="" src="<?php echo base_url()?>assets/img/logo.png"> -->
     <div class="sidebar-brand-text mx-3">Griya abadi 2 <sup></sup></div>
 </a>
 
@@ -15,7 +15,7 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="">
+    <a class="nav-link" href="http://localhost/kta-gerindra/">
         <i class=""></i>
         <span>Dashboard</span></a>
 </li>
@@ -30,11 +30,11 @@
 
 <!-- Nav Item - Pages Collapse Menu -->
 
-<li class="nav-item">
+<!-- <li class="nav-item">
     <a class="nav-link" href="http://localhost/kta-gerindra/level/index/">
        <i class="fas fa-thin fa-address-card"></i>
         <span>LEVEL JABATAN</span></a>
-</li>
+</li> -->
 
 <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
@@ -46,10 +46,10 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Referensi</h6>
-                        <a class="collapse-item" href="http://[::1]/kta-gerindra/provinsi/index/">Provinsi</a>
-                        <a class="collapse-item" href="http://localhost/kta-gerindra/kabupaten/index">Kabupaten</a>
-                        <a class="collapse-item" href="http://localhost/kta-gerindra/kecamatan/index">Kecamatan</a>
-                        <a class="collapse-item" href="http://localhost/kta-gerindra/desa/index">Desa</a>
+                        <a class="collapse-item" href="http://[::1]/kta-gerindra/provinsi/index/">Blok Perum</a>
+                        <a class="collapse-item" href="http://localhost/kta-gerindra/kabupaten/index">No Rumah</a>
+                        <a class="collapse-item" href="http://localhost/kta-gerindra/kecamatan/index">Pembayaran</a>
+                        <!-- <a class="collapse-item" href="http://localhost/kta-gerindra/desa/index">Desa</a> -->
                     </div>
                 </div>
             </li>
