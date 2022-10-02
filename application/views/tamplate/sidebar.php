@@ -7,7 +7,7 @@
         <i class=""></i>
     </div>
     <img class="" src="<?php echo base_url()?>assets/img/logo.png">
-    <div class="sidebar-brand-text mx-3">E-KTA PARTAI <sup></sup></div>
+    <div class="sidebar-brand-text mx-3">Griya abadi 2 <sup></sup></div>
 </a>
 
 <!-- Divider -->
@@ -40,12 +40,12 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-thin fa-map"></i>
-                    <span>WILAYAH</span>
+                    <span>MASTER DATA</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Tambah Wilayah</h6>
+                        <h6 class="collapse-header">Referensi</h6>
                         <a class="collapse-item" href="http://[::1]/kta-gerindra/provinsi/index/">Provinsi</a>
                         <a class="collapse-item" href="http://localhost/kta-gerindra/kabupaten/index">Kabupaten</a>
                         <a class="collapse-item" href="http://localhost/kta-gerindra/kecamatan/index">Kecamatan</a>

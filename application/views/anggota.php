@@ -17,7 +17,7 @@
     <thead>
       <tr>
       <td>NO</td>
-      <td>KODE PROIVINSI</td>
+      <td>KODE PROVINSI</td>
       <td>KODE KABUPATEN</td>
       <td>KODE KECAMATAN</td>
       <td>KODE DESA</td>
